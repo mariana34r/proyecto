@@ -11,8 +11,9 @@ def coordinador ():
     print("Binevenido", nombre )
     while True:
         print("")
-        print("**Rol coordinacion**")
-        print("*****Academica******")
+        print("-----------------------------")
+        print("**Bienvenido a Coordinacion**")
+        print("----------Academica-----------")
         print("¿A que area de campus desea ingresar?")
         print("\n1.Campers\n2.Trainers\n3.Rutas de entrenamiento\n4.Reportes\n5.salir al menu principal")
         opc = 0

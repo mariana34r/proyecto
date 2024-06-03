@@ -1,9 +1,18 @@
 [
     {
-        "nombre": "Marinas",
-        "apellido": "a",
-        "Area_Entrenamiento": "a",
-        "telefono": 3222,
-        "documento": 32222
+        "nombre": "maraisbs",
+        "apellido": "maaa",
+        "Area_Entrenamiento": "aa",
+        "telefono": 322,
+        "documento": 3222,
+        "horario": "6:00-10:00"
+    },
+    {
+        "nombre": "maraisbs",
+        "apellido": "maaa",
+        "Area_Entrenamiento": "aa",
+        "telefono": 322,
+        "documento": 3222,
+        "horario": "6:00-10:00"
     }
 ]
