@@ -8,6 +8,9 @@ def registrar_trainers():
     trainers["nombre"] = input("ingrese el nombre del trainer: ")
     trainers["apellido"] = input ("ingrese el apellido del trainer: ")
     trainers["Area_Entrenamiento"] = input ("Ingrese el area de entrenamineto valido")
+    grupo_por_defecto = trainers["nombre"][0].upper() + "1"  
+    trainers["Grupo"] = grupo_por_defecto
+    trainers["Horario"] = input("Asignele un hoario al trainer")
     try:
         trainers["telefono"] = int(input("ingrese el telefono del trainer: "))
         trainers["documento"]=int(input("Ingrese su documento: "))

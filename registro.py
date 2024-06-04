@@ -29,7 +29,7 @@ def mostrar_campers():
 def mostrar_incritos():
     print("Los Campers Inscritos son:")
     for camper in dato_camper.data:
-        print("- Tipo:", camper["nombre"])    
+        print("Los campers son:", camper["nombre"])    
         
 def notas_campers():
     print("Ingrese la notas de los campers")

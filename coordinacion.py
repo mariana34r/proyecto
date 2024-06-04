@@ -76,7 +76,8 @@ def coordinador ():
             if opc_r == 1:
                 registro.mostrar_incritos()
             elif opc_r == 2 :
-                matricula.mostrar_camper_admitidos() 
+                matricula.mostrar_camper_admitidos()
+                registro.mostrar_incritos()
             elif opc_r ==3:
                 treiner.mostrar_trainers()   
             elif opc_r == 8:
