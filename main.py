@@ -23,7 +23,7 @@ def menu_principal():
             coordinacion.coordinador()
         elif opc == 2:
             print("------------------------------")
-            print("-         ROL TRAINER        -")
+            print("-         ROL TRAINER        --")
             print("------------------------------")
             print("Binevenidos Trainers")
             print("\n1.Ver Horario\n2.salir")
