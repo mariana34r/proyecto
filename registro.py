@@ -8,7 +8,7 @@ def registrar_camper():
     camper["apellido"] = input ("ingrese el apellido del camper: ")
     camper["dirrecion"]=input("ingrese la direccion del camper: ")
     camper["acudiente"] = input("ingrese el nombre del acudiente del camper: ")
-    camper["Estado"] = input("Ingrese el estado en el que se encuentra el camper")
+    camper["Estado"] = "Inscrito"
     try:
         camper["contacto"] = int(input("ingrese el telefono fijo del camper: "))
         camper["contacto2"] = int (input("Ingrese ahora el numero de telefono del celular"))
